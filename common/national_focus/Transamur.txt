@@ -3724,11 +3724,9 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRM_Rep"
 			add_stability = -0.05
-			RUS = {
-				country_event = {
-					id = rusfor.1078
-					days = 5
-				}
+			country_event = {
+				id = tram.161
+				days = 1
 			}
 		}
 	}
@@ -5902,7 +5900,7 @@ focus = {
 	focus = {
 		id = TRM_ally_evra
 		text = TRM_ally_evra
-		icon = GFX_RUS_young_eurasians
+		icon = GFX_goal_TRM_Ally_the_Evraziytsy
 		cost = 5.00
 		ai_will_do = {
 			base = 100
@@ -5932,7 +5930,7 @@ focus = {
 						}
 					add_ideas = TRM_eurasia_idea
 					add_popularity = {
-							ideology = national_populist
+							ideology = paternal_autocrat
 							popularity = 0.03
 						}
 					hidden_effect = {
@@ -5947,7 +5945,7 @@ focus = {
 	focus = {
 		id = TRM_eurasia
 		text = TRM_eurasia
-		icon = GFX_RUS_krestostrel
+		icon = GFX_goal_TRM_Eurasian_Brotherhood
 		cost = 5.00
 		ai_will_do = {
 			base = 100
@@ -5969,7 +5967,7 @@ focus = {
 	focus = {
 		id = TRM_ally_smen
 		text = TRM_ally_smen
-		icon = GFX_focus_trm_dictatorship
+		icon = GFX_goal_TRM_Ally_the_Smenovekhovsty
 		cost = 5.00
 		prerequisite = {
 			focus = TRM_vlad_conference
@@ -5995,7 +5993,7 @@ focus = {
 						}
 					add_ideas = TRM_nazbol_idea
 					add_popularity = {
-							ideology = national_populist
+							ideology = totalist
 							popularity = 0.03
 						}
 					hidden_effect = {
@@ -6010,7 +6008,7 @@ focus = {
 	focus = {
 		id = TRM_worker_solidarity
 		text = TRM_worker_solidarity
-		icon = GFX_goal_CZE_panslavism
+		icon = GFX_goal_TRM_worker_solidarity
 		cost = 5.00
 		ai_will_do = {
 			base = 100
@@ -6030,10 +6028,22 @@ focus = {
 				}
 			completion_reward = {
 					add_popularity = {
-							ideology = national_populist
-							popularity = 0.12
+							ideology = syndicalist
+							popularity = 0.02
 						}
-					add_ideas = TRM_slavs_idea
+					add_popularity = {
+							ideology = radical_socialist
+							popularity = 0.02
+						}
+					add_popularity = {
+							ideology = social_democrat
+							popularity = 0.02
+						}
+					add_popularity = {
+							ideology = totalist
+							popularity = 0.05
+						}
+					add_ideas = TRM_workers_idea
 				}
 
 	}
@@ -8160,10 +8170,9 @@ focus = {
 		completion_reward = {
 			if = {
 				limit = {
-					ROOT = { is_in_faction_with = CAN }
+					ROOT_is_in_entente = yes
 				}
-				custom_effect_tooltip = unlocks_decision
-				custom_effect_tooltip = RUS_Support_DEH			
+				unlock_decision_tooltip = RUS_Support_DEH
 			}
 			if = {
 				limit = {
@@ -8172,12 +8181,10 @@ focus = {
 						has_socialist_government = yes
 					}
 				}
-				custom_effect_tooltip = unlocks_decision
-				custom_effect_tooltip = RUS_Support_BHC
+				unlock_decision_tooltip = RUS_Support_BHC
 			}
 			else = {
-				custom_effect_tooltip = unlocks_decision
-				custom_effect_tooltip = RUS_Support_PRF_tt
+				unlock_decision_tooltip = RUS_Support_PRF
 			}
 		}
 	}

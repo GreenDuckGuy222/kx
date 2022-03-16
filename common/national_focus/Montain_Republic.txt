@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Motorized_Cossacks
-		icon = GFX_focus_rus_motorised
+		icon = GFX_goal_generic_army_motorized
 		cost = 5
 		relative_position_id = MNR_army
 		x = 2
@@ -215,7 +215,7 @@ focus_tree = {
 		
 	focus = {
 		id = MNR_economic_plan
-		icon = GFX_goal_NFA_economic_mob
+		icon = GFX_goal_HOL_black_monday
 		cost = 5
 		x = 5
 		y = 0
@@ -236,7 +236,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Balance_The_Budget
-		icon = GFX_goal_LPD_strike_balance
+		icon = GFX_goal_generic_loans
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -263,7 +263,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Support_Local_Farmers
-		icon = GFX_RUS_Emergence_Of_Farmers
+		icon = GFX_Goal_YUN_The_Mountain_Economy
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -283,7 +283,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Central_Bank
-		icon = GFX_goal_MAF_Bank
+		icon = GFX_goal_LEP_jiangzhe_bank
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -323,7 +323,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Oil_Agreement_With_Germany
-		icon = GFX_CAL_nationalize_oil
+		icon = GFX_goal_align_germany
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -385,7 +385,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Increase_Import_Tarrifs
-		icon = GFX_goal_CSA_practical_trade
+		icon = GFX_goal_generic_investigate_corruption
 		cost = 5
 		ai_will_do = {
 			factor = 100 
@@ -435,7 +435,7 @@ focus_tree = {
 		
 	focus = {
 		id = MNR_Economic_Boom
-		icon = GFX_goal_NFA_post_syndie_boom
+		icon = GFX_goal_HOL_black_monday
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -604,7 +604,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Dzaudzhikau_University
-		icon = GFX_goal_UMN_university
+		icon = GFX_goal_PAN_Create_the_Universidad_de_Panama
 		cost = 5
 		ai_will_do = {
 			factor = 60
@@ -705,7 +705,7 @@ focus_tree = {
 	
 	focus = {
 		id = MNR_Grozny_Arsenal
-		icon = GFX_goal_ZAM_arms_factory
+		icon = GFX_goal_industry_air
 		cost = 5
 		ai_will_do = {
 			factor = 30
@@ -735,7 +735,7 @@ focus_tree = {
 	
 	focus = {
 		id = MNR_Expand_Oil_Production
-		icon = GFX_goal_GAL_sell_oil
+		icon = GFX_goal_further_oil
 		cost = 5
 		ai_will_do = {
 			factor = 20
@@ -770,7 +770,7 @@ focus_tree = {
 	
 	focus = {
 		id = MNR_Changes_We_Need
-		icon = GFX_goal_CZE_radical_changes
+		icon = GFX_goal_ideology_social_democrat
 		cost = 0
 		x = 14
 		y = 0
@@ -794,7 +794,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Traditions_We_Secure
-		icon = GFX_RUS_Enact_Traditional_Values
+		icon = GFX_goal_ideology_social_conservative
 		cost = 0
 		x = 16
 		y = 0
@@ -818,7 +818,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Representative_Parliament
-		icon = GFX_RUS_Reinforce_Local_Parliaments
+		icon = GFX_goal_DOM_Call_Special_Election
 		cost = 5
 		relative_position_id = MNR_Changes_We_Need
 		x = -1
@@ -841,7 +841,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Cooperate_With_Socialists
-		icon = GFX_goal_LPD_allign_radicals
+		icon = GFX_goal_ideology_radical_socialist
 		cost = 5
 		relative_position_id = MNR_Changes_We_Need
 		x = -2
@@ -867,7 +867,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Ignore_The_Socialists
-		icon = GFX_BRY_Anti_Socialist_Raids
+		icon = GFX_goal_social_reforms
 		cost = 5
 		relative_position_id = MNR_Changes_We_Need
 		x = 0
@@ -890,7 +890,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Establish_Agricultural_Fund
-		icon = GFX_RUS_National_Agrarian_Fund
+		icon = GFX_goal_agrarian_reform
 		cost = 5
 		relative_position_id = MNR_Changes_We_Need
 		x = -3
@@ -910,7 +910,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Reform_The_Electoral_Law
-		icon = GFX_RUS_reform_electoral_law
+		icon = GFX_goal_SAF_reform_voting_law
 		cost = 5
 		relative_position_id = MNR_Changes_We_Need
 		x = -1
@@ -934,7 +934,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Nationalize_Important_Industries
-		icon = GFX_goal_MNT_nationalize_austrian_business
+		icon = GFX_goal_workers_for_business
 		cost = 5
 		relative_position_id = MNR_Changes_We_Need
 		x = -2
@@ -964,7 +964,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Free_Trade_Economy
-		icon = GFX_goal_NFA_review_economy
+		icon = GFX_goal_generic_positive_trade_relations_gold
 		cost = 5
 		relative_position_id = MNR_Changes_We_Need
 		x = 0
@@ -1050,7 +1050,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Fight_Socialist_Thought
-		icon = GFX_RUS_Remember_1917
+		icon = GFX_HOL_red_scare
 		relative_position_id = MNR_Traditions_We_Secure
 		x = 0
 		y = 2
@@ -1105,7 +1105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Secret_Police
-		icon = GFX_goal_generic_police_state
+		icon = GFX_goal_secret_agents
 		relative_position_id = MNR_Traditions_We_Secure
 		x = -1
 		y = 3
@@ -1129,7 +1129,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_State_Propaganda
-		icon = GFX_goal_NFA_national_propaganda
+		icon = GFX_goal_generic_propaganda
 		relative_position_id = MNR_Traditions_We_Secure
 		x = 1
 		y = 3
@@ -1161,7 +1161,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Oppress_The_Others
-		icon = GFX_RUS_Under_Control
+		icon = GFX_goal_LEP_repression
 		relative_position_id = MNR_Traditions_We_Secure
 		x = 1
 		y = 4
@@ -1240,7 +1240,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Expand_Dictatorial_Powers
-		icon = GFX_goal_MEX_All_power_to_the_Executive
+		icon = GFX_goal_ideology_paternal_autocrat
 		relative_position_id = MNR_The_Order_Restored
 		x = -2
 		y = 1
@@ -1266,7 +1266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Bring_The_Imamate_Into_Life
-		icon = GFX_goal_OTT_Association_of_Muslim_Nations
+		icon = GFX_goal_ideology_paternal_autocrat
 		relative_position_id = MNR_The_Order_Restored
 		x = 2
 		y = 1
@@ -1301,7 +1301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_A_New_Government
-		icon = GFX_TRM_Minorities_Government
+		icon = GFX_goal_COS_Ferrer_Coup
 		relative_position_id = MNR_The_Order_Restored
 		x = -2
 		y = 2
@@ -1321,7 +1321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Support_Imams
-		icon = GFX_TTR_Islamic_Order
+		icon = GFX_goal_OTT_caliph
 		relative_position_id = MNR_The_Order_Restored
 		x = -3
 		y = 3
@@ -1349,7 +1349,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Collaborate_With_Germany
-		icon = GFX_ITA_germany
+		icon = GFX_goal_germany
 		relative_position_id = MNR_The_Order_Restored
 		x = -1
 		y = 3
@@ -1377,7 +1377,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Militarization
-		icon = GFX_goal_NFA_military_supremacy
+		icon = GFX_goal_generic_construct_mil_factory
 		relative_position_id = MNR_The_Order_Restored
 		x = -3
 		y = 4
@@ -1405,7 +1405,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_The_Land_Of_Order
-		icon = GFX_goal_MEX_maintain_the_plan
+		icon = GFX_goal_authority
 		relative_position_id = MNR_The_Order_Restored
 		x = -1
 		y = 4
@@ -1512,7 +1512,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Collaborate_With_Ottomans
-		icon = GFX_goal_AFG_ottoman_sultan_takes_over
+		icon = GFX_goal_ottoman
 		relative_position_id = MNR_The_Order_Restored
 		x = 1
 		y = 3
@@ -1560,7 +1560,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Nizam
-		icon = GFX_BBR_islamic_education
+		icon = GFX_goal_OTT_Islamic_Education
 		relative_position_id = MNR_The_Order_Restored
 		x = 3
 		y = 4
@@ -1640,7 +1640,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Victory_Of_The_Socialists
-		icon = GFX_RUS_Truly_Socialist_Party
+		icon = GFX_ITA_syndicalist_unite
 		x = 30
 		y = 0
 		cost = 0
@@ -1682,7 +1682,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Fight_Corruption
-		icon = GFX_goal_KIV_no_corruption
+		icon = GFX_goal_generic_tackle_corruption
 		relative_position_id = MNR_Victory_Of_The_Socialists
 		x = -1
 		y = 2
@@ -1760,7 +1760,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_State_Atheism
-		icon = GFX_goal_MEX_atheism
+		icon = GFX_goal_red_star_gold_wreath
 		relative_position_id = MNR_Victory_Of_The_Socialists
 		x = 1
 		y = 3
@@ -1823,7 +1823,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Delegation_To_The_Internationale
-		icon = GFX_BBR_internationale_struggle
+		icon = GFX_goal_FRA_Internationale_Congress
 		relative_position_id = MNR_Victory_Of_The_Socialists
 		x = -1
 		y = 5
@@ -1854,7 +1854,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MNR_Join_Soviet_Russia
-		icon = GFX_SOV_Chad_Soviets
+		icon = GFX_goal_SOV_army
 		relative_position_id = MNR_Victory_Of_The_Socialists
 		x = 1
 		y = 5

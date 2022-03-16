@@ -7,7 +7,7 @@ ideas = {
   ################################################################################################################################################################################################
 
 	head_of_government = { ### Head of Government ###
-		RUS_Dmitri_Mirsky_hog_rso = {
+		RUS_Yuri_Shirinsky_Shikhmatov_hog_tot = {
 			allowed = { original_tag = RUS }
 			available = {
 				custom_trigger_tooltip = {
@@ -17,16 +17,15 @@ ideas = {
 			}
 			visible = {
 				has_cosmetic_tag = RUS_EUR
-				NOT = { has_completed_focus = RUS_Strengthen_The_Chairman }
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Dmitri_Mirsky_hog_rso" 
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Yuri_Shirinsky_Shikhmatov_hog_tot"
 			}
 			traits = {
 				head_of_government
-				radical_socialist
-				hog_gentleman_politician
+				totalist
+				hog_totalist_chairman
 			}
 		}
 		RUS_Dmitri_Mirsky_hog_tot = {
@@ -39,7 +38,6 @@ ideas = {
 			}
 			visible = {
 				has_cosmetic_tag = RUS_EUR
-				has_completed_focus = RUS_Strengthen_The_Chairman
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -68,7 +66,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				social_democrat
+				authoritarian_democrat
 				hog_gentleman_politician
 			}
 		}
@@ -126,7 +124,7 @@ ideas = {
 				hog_pragmatic_statesman
 			}
 		}
-		RUS_Yuri_Shirinsky_Shikhmatov_hog_tot = {
+		RUS_Lev_N_Gumilov_hog_pau = {
 			allowed = { original_tag = RUS }
 			available = {
 				custom_trigger_tooltip = {
@@ -134,20 +132,16 @@ ideas = {
 					always = no
 				}
 			}
-			visible = {
-				has_cosmetic_tag = RUS_EUR
-			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Yuri_Shirinsky_Shikhmatov_hog_tot"
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Lev_N_Gumilov_hog_pau"
 			}
 			traits = {
 				head_of_government
 				national_populist
-				hog_flamboyant_tough_guy
+				hog_happy_amateur
 			}
 		}
-		
 	}
 	person_of_influence = {
 		RUS_Pyetr_Suvchinsky_for_tot = {

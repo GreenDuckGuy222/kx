@@ -12,8 +12,7 @@ state = {
 		buildings = {
 			infrastructure = 2
 		} 
-		add_core_of = OTT 
-                add_claim_by = GRE
+		add_core_of = OTT
 		849 = {
 			coastal_bunker = 4
 			bunker = 2

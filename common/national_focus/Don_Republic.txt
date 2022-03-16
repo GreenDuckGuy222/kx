@@ -3024,10 +3024,24 @@ focus = {
 			factor = 2000
 		}
 		completion_reward = {
-			RUS = {
-				country_event = {
-					id = dkb.15
-					days = 2
+			if = {
+				limit = {
+					country_exists = RUS
+					RUS = { has_socialist_government = yes }
+				}
+				RUS = {
+					country_event = {
+						id = dkb.15
+						days = 2
+					}
+				}
+			}
+			else = {
+				SOV = {
+					country_event = {
+						id = dkb.15
+						days = 2
+					}
 				}
 			}
 		}

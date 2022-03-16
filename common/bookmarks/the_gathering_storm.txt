@@ -32,9 +32,9 @@ bookmarks = {
 			}
 
 			focuses = {
-				BRG_the_ramsay_cabinet
-				BRG_death_to_revoltuion
-				BRG_atlee_cabinet
+				ENG_revolution
+				ENG_lives
+				ENG_lawrence_of_britannia
 			}
 		}
 
@@ -167,18 +167,19 @@ bookmarks = {
 			}
 		}
 		
-		"UKR" = {
+		"GUA" = {
 			minor = yes
-			history = "URK_KR_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
+			history = "GUA_KR_GATHERING_STORM_DESC"
+			ideology = paternal_autocrat
 			ideas = {
-				language_issue
-				Hetman_Army
+				GUA_socialist_compensation
+				GUA_united_fruit
+				GUA_illiteracy
 			}
 			focuses = {
-				UKR_Snap_Elections
-				UKR_Our_Future
-				UKR_Rebirth_Ukrainian_Revolution
+				GUA_second_empire_larp
+				GUA_hail_emperor
+				GUA_first_empire_larp
 			}
 		}
 

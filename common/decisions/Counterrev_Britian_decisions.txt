@@ -1058,7 +1058,6 @@ BRG_pick_a_king = {
 		complete_effect = {
 			set_country_flag = BRG_elected_king
 			set_cosmetic_tag = BRG_kingdom
-			set_country_flag = BRG_has_carol
 			hidden_effect = {
 					country_event = {
 						id = basedbrit.83
@@ -1997,7 +1996,7 @@ BRG_pick_a_king = {
 			traits = { BRG_the_New_King }
 			female = yes
 		}
-		set_country_flag = BRG_woman_moment
+
 		}
 		ai_will_do = {
 			factor = 5
@@ -2067,7 +2066,7 @@ BRG_pick_a_king = {
 			traits = { BRG_the_New_King }
 			female = yes
 		}
-			set_country_flag = BRG_woman_moment
+
 		}
 		ai_will_do = {
 			factor = 5
@@ -2143,7 +2142,6 @@ BRG_pick_a_king = {
 			traits = { BRG_the_New_King }
 			female = yes
 		}
-		set_country_flag = BRG_woman_moment
 		}
 		ai_will_do = {
 			factor = 5

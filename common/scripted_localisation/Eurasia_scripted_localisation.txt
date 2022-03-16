@@ -83,11 +83,11 @@ defined_text = {
 	
 }
 defined_text = {
-	name = GetLeftEurLeftSRSupport
+	name = GetLeftEurBolshevistSupport
 	text = {
 		trigger = {
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 15
 				compare = less_than_or_equals
 			}
@@ -97,12 +97,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 15
 				compare = greater_than
 			}
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 25
 				compare = less_than_or_equals
 			}
@@ -112,12 +112,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 25
 				compare = greater_than
 			}
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 40
 				compare = less_than_or_equals
 			}
@@ -127,12 +127,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 40
 				compare = greater_than
 			}
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 75
 				compare = less_than_or_equals
 			}
@@ -142,12 +142,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 75
 				compare = greater_than
 			}
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 90
 				compare = less_than_or_equals
 			}
@@ -157,7 +157,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = LeftEurPLSRSupport
+				var = LeftEurBolshevistSupport
 				value = 90
 				compare = greater_than
 			}
@@ -166,11 +166,11 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetNationalMaximalistSupport
+	name = GetLeftEurNationalMaximalistSupport
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 15
 				compare = less_than_or_equals
 			}
@@ -180,12 +180,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 15
 				compare = greater_than
 			}
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 25
 				compare = less_than_or_equals
 			}
@@ -195,12 +195,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 25
 				compare = greater_than
 			}
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 40
 				compare = less_than_or_equals
 			}
@@ -210,12 +210,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 40
 				compare = greater_than
 			}
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 75
 				compare = less_than_or_equals
 			}
@@ -225,12 +225,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 75
 				compare = greater_than
 			}
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 90
 				compare = less_than_or_equals
 			}
@@ -240,7 +240,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = LeftEurNationalMaximalistSupport
 				value = 90
 				compare = greater_than
 			}
@@ -654,89 +654,6 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetOrthEurTyrkovaAuthority
-	text = {
-		trigger = {
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 15
-				compare = less_than_or_equals
-			}
-		}
-		localization_key = "irrelevantauthority"
-	}
-	text = {
-		trigger = {
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 15
-				compare = greater_than
-			}
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 25
-				compare = less_than_or_equals
-			}
-		}
-		localization_key = "insignificantauthority"
-	}
-	text = {
-		trigger = {
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 25
-				compare = greater_than
-			}
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 40
-				compare = less_than_or_equals
-			}
-		}
-		localization_key = "lowauthority"
-	}
-	text = {
-		trigger = {
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 40
-				compare = greater_than
-			}
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 75
-				compare = less_than_or_equals
-			}
-		}
-		localization_key = "moderateauthority"
-	}
-	text = {
-		trigger = {
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 75
-				compare = greater_than
-			}
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 90
-				compare = less_than_or_equals
-			}
-		}
-		localization_key = "significantauthority"
-	}
-	text = {
-		trigger = {
-			check_variable = {
-				var = OrthEurTyrkovaAuthority
-				value = 90
-				compare = greater_than
-			}
-		}
-		localization_key = "unlimitedauthority"
-	}
-}
-defined_text = {
 	name = GetOrthEurVernadskyAuthority
 	text = {
 		trigger = {
@@ -1069,11 +986,11 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetNationalMaximalistSupport
+	name = GetYoungEurGumilyovAuthority
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 15
 				compare = less_than_or_equals
 			}
@@ -1083,12 +1000,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 15
 				compare = greater_than
 			}
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 25
 				compare = less_than_or_equals
 			}
@@ -1098,12 +1015,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 25
 				compare = greater_than
 			}
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 40
 				compare = less_than_or_equals
 			}
@@ -1113,12 +1030,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 40
 				compare = greater_than
 			}
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 75
 				compare = less_than_or_equals
 			}
@@ -1128,12 +1045,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 75
 				compare = greater_than
 			}
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 90
 				compare = less_than_or_equals
 			}
@@ -1143,7 +1060,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = NationalMaximalistSupport
+				var = YoungEurGumilyovAuthority
 				value = 90
 				compare = greater_than
 			}
@@ -1235,11 +1152,11 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetOrthEurSavitskyAuthority
+	name = GetYoungEurSolidaristSupport
 	text = {
 		trigger = {
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 15
 				compare = less_than_or_equals
 			}
@@ -1249,12 +1166,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 15
 				compare = greater_than
 			}
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 25
 				compare = less_than_or_equals
 			}
@@ -1264,12 +1181,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 25
 				compare = greater_than
 			}
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 40
 				compare = less_than_or_equals
 			}
@@ -1279,12 +1196,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 40
 				compare = greater_than
 			}
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 75
 				compare = less_than_or_equals
 			}
@@ -1294,12 +1211,12 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 75
 				compare = greater_than
 			}
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 90
 				compare = less_than_or_equals
 			}
@@ -1309,7 +1226,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = OrthEurSavitskyAuthority
+				var = YoungEurSolidaristSupport
 				value = 90
 				compare = greater_than
 			}
@@ -1418,28 +1335,28 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetSpiridonovaStatus
+	name = GetZinovievStatus
 	text = {
 		trigger = {
-			has_country_flag = spiridonova_dead
+			has_country_flag = zinoviev_dead
 		}
 		localization_key = "politician_is_dead"
 	}
 	text = {
 		trigger = {
-			has_country_flag = spiridonova_arrested
+			has_country_flag = zinoviev_arrested
 		}
 		localization_key = "politician_is_arrested"
 	}
 	text = {
 		trigger = {
-			has_country_flag = spiridonova_escaped
+			has_country_flag = zinoviev_escaped
 		}
 		localization_key = "politician_has_escaped"
 	}
 	text = {
 		trigger = {
-			has_country_flag = spiridonova_located
+			has_country_flag = zinoviev_located
 		}
 		localization_key = "politician_location_known"
 	}
@@ -1447,10 +1364,10 @@ defined_text = {
 		trigger = {
 			NOT = {
 				OR = {
-					has_country_flag = spiridonova_escaped
-					has_country_flag = spiridonova_arrested
-					has_country_flag = spiridonova_dead
-					has_country_flag = spiridonova_located
+					has_country_flag = zinoviev_escaped
+					has_country_flag = zinoviev_arrested
+					has_country_flag = zinoviev_dead
+					has_country_flag = zinoviev_located
 				}
 			}
 		}
@@ -1578,46 +1495,6 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetTyrkovaStatus
-	text = {
-		trigger = {
-			has_country_flag = tyrkova_dead
-		}
-		localization_key = "politician_is_dead"
-	}
-	text = {
-		trigger = {
-			has_country_flag = tyrkova_arrested
-		}
-		localization_key = "politician_is_arrested"
-	}
-	text = {
-		trigger = {
-			has_country_flag = tyrkova_escaped
-		}
-		localization_key = "politician_has_escaped"
-	}
-	text = {
-		trigger = {
-			has_country_flag = tyrkova_located
-		}
-		localization_key = "politician_location_known"
-	}
-	text = {
-		trigger = {
-			NOT = {
-				OR = {
-					has_country_flag = tyrkova_escaped
-					has_country_flag = tyrkova_arrested
-					has_country_flag = tyrkova_dead
-					has_country_flag = tyrkova_located
-				}
-			}
-		}
-		localization_key = "politician_location_unknown"
-	}
-}
-defined_text = {
 	name = GetVernadskyStatus
 	text = {
 		trigger = {
@@ -1657,7 +1534,6 @@ defined_text = {
 		localization_key = "politician_location_unknown"
 	}
 }
-
 defined_text = {
 	name = GetChkheidzeStatus
 	text = {
@@ -1739,6 +1615,46 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = GetGumilyovStatus
+	text = {
+		trigger = {
+			has_country_flag = gumilyov_dead
+		}
+		localization_key = "politician_is_dead"
+	}
+	text = {
+		trigger = {
+			has_country_flag = gumilyov_arrested
+		}
+		localization_key = "politician_is_arrested"
+	}
+	text = {
+		trigger = {
+			has_country_flag = gumilyov_escaped
+		}
+		localization_key = "politician_has_escaped"
+	}
+	text = {
+		trigger = {
+			has_country_flag = gumilyov_located
+		}
+		localization_key = "politician_location_known"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_flag = gumilyov_escaped
+					has_country_flag = gumilyov_arrested
+					has_country_flag = gumilyov_dead
+					has_country_flag = gumilyov_located
+				}
+			}
+		}
+		localization_key = "politician_location_unknown"
+	}
+}
+defined_text = {
 	name = GetSavinkovStatus
 	text = {
 		trigger = {
@@ -1779,6 +1695,46 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = GetBaydalakovStatus
+	text = {
+		trigger = {
+			has_country_flag = baydalakov_dead
+		}
+		localization_key = "politician_is_dead"
+	}
+	text = {
+		trigger = {
+			has_country_flag = baydalakov_arrested
+		}
+		localization_key = "politician_is_arrested"
+	}
+	text = {
+		trigger = {
+			has_country_flag = baydalakov_escaped
+		}
+		localization_key = "politician_has_escaped"
+	}
+	text = {
+		trigger = {
+			has_country_flag = baydalakov_located
+		}
+		localization_key = "politician_location_known"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_flag = baydalakov_escaped
+					has_country_flag = baydalakov_arrested
+					has_country_flag = baydalakov_dead
+					has_country_flag = baydalakov_located
+				}
+			}
+		}
+		localization_key = "politician_location_unknown"
+	}
+}
+defined_text = {
 	name = GetEurasianCandidateName
 	text = {
 		trigger = {
@@ -1794,15 +1750,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_flag = tyrkova_candidate_for_president
-		}
-		localization_key = "Ariadna Tyrkova-Williams"
-	}
-	text = {
-		trigger = {
 			has_country_flag = vernadsky_candidate_for_president
 		}
-		localization_key = "Georgy Vernadsky"
+		localization_key = "Grigoriy Vernadskiy"
 	}
 	text = {
 		trigger = {
@@ -1929,8 +1879,8 @@ defined_text = {
 			has_country_flag = lefteur_coalition_dissolved
 			NOT = {
 				OR = {
-					has_completed_focus = RUS_Alliance_With_Left_SRs
-					has_completed_focus = RUS_Center_Left_Coalition
+					has_completed_focus = RUS_Union_With_National_Maximalists
+					has_completed_focus = RUS_Return_Of_The_Bolsheviks
 				}
 			}
 		}
@@ -1938,15 +1888,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_completed_focus = RUS_Center_Left_Coalition
+			has_completed_focus = RUS_Union_With_National_Maximalists
 		}
-		localization_key = "RUS_left_eurasians_jakobson_coalition"
+		localization_key = "RUS_left_eurasians_srnm_coalition"
 	}
 	text = {
 		trigger = {
-			has_completed_focus = RUS_Alliance_With_Left_SRs
+			has_completed_focus = RUS_Return_Of_The_Bolsheviks
 		}
-		localization_key = "RUS_left_eurasians_plsr_coalition"
+		localization_key = "RUS_left_eurasians_rkp_coalition"
 	}
 	text = {
 		trigger = {
@@ -1954,8 +1904,8 @@ defined_text = {
 				OR = {
 					has_country_flag = lefteur_coalition_dissolved
 					has_country_flag = lefteur_rkp_srnm_coalition
-					has_completed_focus = RUS_Alliance_With_Left_SRs
-					has_completed_focus = RUS_Center_Left_Coalition
+					has_completed_focus = RUS_Union_With_National_Maximalists
+					has_completed_focus = RUS_Return_Of_The_Bolsheviks
 				}
 			}
 		}

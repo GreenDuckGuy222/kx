@@ -1736,8 +1736,7 @@ focus = {
 			limit = {
 				ROOT = { is_in_faction_with = CAN }
 			}
-			custom_effect_tooltip = unlocks_decision
-			custom_effect_tooltip = RUS_Support_DEH			
+			unlock_decision_tooltip = RUS_Support_DEH
 		}
 		if = {
 			limit = {
@@ -1746,12 +1745,10 @@ focus = {
 					has_socialist_government = yes
 				}
 			}
-			custom_effect_tooltip = unlocks_decision
-			custom_effect_tooltip = RUS_Support_BHC
+			unlock_decision_tooltip = RUS_Support_BHC
 		}
 		else = {
-			custom_effect_tooltip = unlocks_decision
-			custom_effect_tooltip = RUS_Support_PRF_tt
+			unlock_decision_tooltip = RUS_Support_PRF
 		}
 	}
 }

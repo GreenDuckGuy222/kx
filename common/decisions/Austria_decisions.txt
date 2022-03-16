@@ -159,7 +159,6 @@ political_actions = {
 					}
 				}
 			}
-			NOT = { has_global_flag = danzig_treaty_active }
 		}
 		
 		visible = {

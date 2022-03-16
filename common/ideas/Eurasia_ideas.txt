@@ -128,7 +128,6 @@ ideas = {
 			}
 		}
 		RUS_orth_eur_enlightenment_modifier_idea = {
-			allowed = { always = no }
 			picture = enlightenment
 		}
 		RUS_eurasianist_intellectualism = {
@@ -155,7 +154,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_1 = { #Initial
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -163,7 +161,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_2 = { #Mechanization
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -172,7 +169,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_3 = { #Electrification
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -181,7 +177,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_4 = { #Electrification + mechanization
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -191,7 +186,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_5 = { #corporations expanded
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -202,7 +196,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_6 = { #national defence
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -214,7 +207,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_7 = { #national defence + corporations
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -227,7 +219,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_8 = { #labour collectives
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -237,7 +228,6 @@ ideas = {
 			}
 		}
 		RUS_six_year_plan_9 = { #labour collectives + national defence
-			allowed = { always = no }
 			name = RUS_six_year_plan
 			picture = man_five_year_plan_industry
 			modifier = {
@@ -249,7 +239,6 @@ ideas = {
 			}
 		}
 		RUS_Royal_Constitution = {
-			allowed = { always = no }
 			picture = LIT_crown_4
 			modifier = {
 				stability_factor = 0.1
@@ -259,7 +248,6 @@ ideas = {
 			}
 		}
 		RUS_krestostrel = {
-			allowed = { always = no }
 			picture = krestostrel
 			modifier = {
 				conscription = 0.02
@@ -268,7 +256,6 @@ ideas = {
 			}
 		}
 		RUS_krestostrel_2 = {
-			allowed = { always = no }
 			picture = krestostrel
 			modifier = {
 				conscription = 0.02
@@ -278,7 +265,6 @@ ideas = {
 			}
 		}
 		RUS_new_oprichnina = {
-			allowed = { always = no }
 			picture = oprichniki
 			modifier = {
 				stability_factor = -0.1
@@ -288,8 +274,7 @@ ideas = {
 			}
 		}
 		RUS_NRPR_coalition_1 = {
-			allowed = { always = no }
-			picture = rus_popular_movement
+			picture = RUS_newrussia
 			modifier = {
 				war_support_factor = 0.025
 				political_power_gain = 0.15
@@ -298,9 +283,8 @@ ideas = {
 			}
 		}
 		RUS_NRPR_coalition_2 = {
-			allowed = { always = no }
 			name = RUS_NRPR_coalition_1
-			picture = rus_popular_movement
+			picture = RUS_newrussia
 			modifier = {
 				war_support_factor = 0.035
 				political_power_gain = 0.2
@@ -308,8 +292,36 @@ ideas = {
 				production_speed_buildings_factor = 0.07
 			}
 		}
+		RUS_solidarist_coalition_1 = {
+			picture = solidarism
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		RUS_solidarist_coalition_2 = {
+			name = RUS_solidarist_coalition_1
+			picture = solidarism
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.07
+				production_factory_efficiency_gain_factor = 0.025
+				production_speed_buildings_factor = 0.025
+			}
+		}
+		RUS_solidarist_coalition_3 = {
+			name = RUS_solidarist_coalition_1
+			picture = solidarism
+			modifier = {
+				stability_factor = 0.15
+				consumer_goods_factor = -0.075
+				production_factory_max_efficiency_factor = 0.09
+				production_factory_efficiency_gain_factor = 0.04
+				production_speed_buildings_factor = 0.06
+			}
+		}
 		RUS_esm = {
-			allowed = { always = no }
 			picture = esm_emblem
 			modifier = {
 				political_power_gain = -0.15
@@ -317,93 +329,79 @@ ideas = {
 				drift_defence_factor = 0.3
 			}
 		}
-		RUS_sovereign_democracy = {
-			allowed = { always = no }
-			picture = HOL_workplace_democracy
-			modifier = {
-				social_democrat_drift = 0.02
-				market_liberal_drift = 0.05
-				social_conservative_drift = 0.02
-				authoritarian_democrat_drift = 0.01
-				political_power_gain = 0.05
-				consumer_goods_factor = -0.07
-			}
-		}
 		RUS_Left_Eurasian_Coalition = {
-			allowed = { always = no }
 			name = RUS_Left_Eurasian_Coalition
 			picture = left_krestostrel
 			modifier = {
 				political_power_gain = -0.15
 				stability_factor = 0.1
+				totalist_drift = 0.1
 				consumer_goods_factor = -0.025
 			}
 		}
 		RUS_Left_Eurasian_Coalition_1 = {
-			allowed = { always = no }
 			name = RUS_Left_Eurasian_Coalition
 			picture = left_krestostrel
 			modifier = {
 				political_power_gain = -0.15
 				stability_factor = 0.05
+				totalist_drift = -0.05
 				consumer_goods_factor = 0.025
 			}
 		}
 		RUS_Left_Eurasian_Coalition_2 = {
-			allowed = { always = no }
 			name = RUS_Left_Eurasian_Coalition
 			picture = left_krestostrel
 			modifier = {
 				political_power_gain = -0.1
 				stability_factor = -0.05
+				totalist_drift = -0.1
 				consumer_goods_factor = 0.05
 			}
 		}
 		RUS_Left_Eurasian_Coalition_3 = {
-			allowed = { always = no }
 			name = RUS_Left_Eurasian_Coalition
 			picture = left_krestostrel_unstable
 			modifier = {
 				political_power_gain = -0.075
 				stability_factor = -0.1
+				totalist_drift = -0.15
 				consumer_goods_factor = 0.075
 			}
 		}
 		RUS_Left_Eurasian_Coalition_4 = {
-			allowed = { always = no }
 			name = RUS_Left_Eurasian_Coalition
 			picture = left_krestostrel
 			modifier = {
 				political_power_gain = -0.05
 				stability_factor = 0.15
+				totalist_drift = 0.15
 				consumer_goods_factor = -0.05
 			}
 		}
 		RUS_Left_Eurasian_Coalition_5 = {
-			allowed = { always = no }
 			name = RUS_Left_Eurasian_Coalition
 			picture = left_krestostrel
 			modifier = {
 				stability_factor = 0.175
+				totalist_drift = 0.175
 				consumer_goods_factor = -0.075
 			}
 		}
 		RUS_Left_Eurasian_Coalition_6 = {
-			allowed = { always = no }
 			name = RUS_Left_Eurasian_Coalition
 			picture = left_krestostrel_stable
 			modifier = {
 				political_power_gain = 0.1
 				stability_factor = 0.2
+				totalist_drift = 0.2
 				consumer_goods_factor = -0.1
 			}
 		}
 		RUS_Left_Eur_Bolshevism = {
-			allowed = { always = no }
 			picture = hol_haven_of_tolerance
 		}
 		RUS_religious_opposition = {
-			allowed = { always = no }
 			picture = chi_war_of_resistance2
 			modifier = {
 				non_core_manpower = -0.2
@@ -412,7 +410,6 @@ ideas = {
 			}
 		}
 		RUS_Bolshevist_Enlightenment = {
-			allowed = { always = no }
 			name = RUS_Bolshevist_Enlightenment
 			picture = soviet_enlightenment
 			modifier = {
@@ -423,7 +420,6 @@ ideas = {
 			}
 		}
 		RUS_Bolshevist_Enlightenment_1 = {
-			allowed = { always = no }
 			name = RUS_Bolshevist_Enlightenment
 			picture = soviet_enlightenment
 			
@@ -434,17 +430,15 @@ ideas = {
 				custom_modifier_tooltip = bolshevist_enlightenment_1_tooltip
 			}
 		}
-		RUS_eurasian_popular_front = {
-			allowed = { always = no }
-			picture = MEX_revolutionary_army
+		RUS_Bolshevist_Enlightenment_2 = {
+			name = RUS_Bolshevist_Enlightenment
+			picture = soviet_enlightenment
 			modifier = {
-				syndicalist_drift = 0.02
-				radical_socialist_drift = 0.02
-				social_democrat_drift = 0.02
+				political_power_gain = -0.15
+				custom_modifier_tooltip = bolshevist_enlightenment_2_tooltip
 			}
 		}
 		RUS_Bolshevist_Enlightenment_3 = {
-			allowed = { always = no }
 			name = RUS_Bolshevist_Enlightenment
 			picture = soviet_enlightenment
 			modifier = {
@@ -452,9 +446,8 @@ ideas = {
 			}
 		}
 		RUS_Eurasian_Bolsheviks = {
-			allowed = { always = no }
 			name = RUS_Eurasian_Bolsheviks
-			picture = SOV_syndicate_decentralization
+			picture = generic_totalist_revolution
 			modifier = {
 				political_power_gain = 0.15
 				stability_factor = 0.1
@@ -462,9 +455,8 @@ ideas = {
 			}
 		}
 		RUS_Eurasian_Bolsheviks_1 = { #Better Future
-			allowed = { always = no }
 			name = RUS_Eurasian_Bolsheviks
-			picture = SOV_syndicate_decentralization
+			picture = generic_totalist_revolution
 			modifier = {
 				political_power_gain = 0.15
 				stability_factor = 0.1
@@ -473,10 +465,20 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.15
 			}
 		}
-		RUS_Eurasian_Bolsheviks_2 = { #Ethnic Councils
-			allowed = { always = no }
+		RUS_Eurasian_Bolsheviks_2 = { #Proletkult
 			name = RUS_Eurasian_Bolsheviks
-			picture = SOV_syndicate_decentralization
+			picture = generic_totalist_revolution
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = 0.15
+				war_support_factor = 0.1
+				conscription = 0.02
+				compliance_growth_on_our_occupied_states = 0.15
+			}
+		}
+		RUS_Eurasian_Bolsheviks_3 = { #Proletkult + Better Future
+			name = RUS_Eurasian_Bolsheviks
+			picture = generic_totalist_revolution
 			modifier = {
 				political_power_gain = 0.15
 				stability_factor = 0.15
@@ -487,21 +489,8 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.15
 			}
 		}
-		RUS_Eurasian_Bolsheviks_3 = { #Final
-			allowed = { always = no }
-			name = RUS_Eurasian_Bolsheviks_4
-			picture = SOV_syndicate_decentralization
-			modifier = {
-				political_power_gain = 0.25
-				stability_factor = 0.15
-				war_support_factor = 0.15
-				production_speed_buildings_factor = 0.05
-				production_factory_efficiency_gain_factor = 0.15
-			}
-		}
-		RUS_Eurasian_Bolsheviks_4 = { #Final + ethnic
-			allowed = { always = no }
-			picture = SOV_syndicate_decentralization
+		RUS_Eurasian_Bolsheviks_4 = { #Final
+			picture = generic_totalist_revolution
 			modifier = {
 				political_power_gain = 0.25
 				stability_factor = 0.15
@@ -514,20 +503,66 @@ ideas = {
 			}
 		}
 		
-		RUS_church_of_all_religions = { #Church
-			allowed = { always = no }
-			picture = church_of_all_religions
+		RUS_National_Maximalism = {
+			name = RUS_National_Maximalism
+			picture = national_maximalism
 			modifier = {
-				political_power_gain = 0.05
-				stability_factor = 0.03
-				consumer_goods_factor = -0.05
-				non_core_manpower = 0.15
-				conscription = 0.01
-				compliance_growth_on_our_occupied_states = 0.1
+				political_power_gain = 0.25
+				stability_factor = 0.05
+				consumer_goods_factor = -0.1
+			}
+		}
+		RUS_National_Maximalism_1 = { #Sobornost
+			name = RUS_National_Maximalism
+			picture = national_maximalism
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.125
+				consumer_goods_factor = -0.1
+				mobilization_speed = 0.3
+				local_resources_factor = 0.15
+			}
+		}
+		RUS_National_Maximalism_2 = { #Church
+			name = RUS_National_Maximalism
+			picture = national_maximalism
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.125
+				consumer_goods_factor = -0.1
+				non_core_manpower = 0.25
+				conscription = 0.02
+				compliance_growth_on_our_occupied_states = 0.15
+			}
+		}
+		RUS_National_Maximalism_3 = { #Church + Sobornost
+			name = RUS_National_Maximalism
+			picture = national_maximalism
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.125
+				consumer_goods_factor = -0.1
+				mobilization_speed = 0.3
+				local_resources_factor = 0.15
+				non_core_manpower = 0.25
+				conscription = 0.02
+				compliance_growth_on_our_occupied_states = 0.15
+			}
+		}
+		RUS_National_Maximalism_4 = { #Final
+			picture = national_maximalism
+			modifier = {
+				political_power_gain = 0.35
+				stability_factor = 0.185
+				consumer_goods_factor = -0.1
+				mobilization_speed = 0.3
+				local_resources_factor = 0.15
+				non_core_manpower = 0.25
+				conscription = 0.02
+				compliance_growth_on_our_occupied_states = 0.15
 			}
 		}
 		RUS_Unpopular_Regime = { #Unpopular regime
-			allowed = { always = no }
 			picture = prc_low_popular_support
 			modifier = {
 				stability_factor = -0.3
@@ -535,7 +570,6 @@ ideas = {
 			}
 		}
 		RUS_eurasian_integration = { #Integration of eurasia
-			allowed = { always = no }
 			picture = RUS_training_barracks
 			modifier = {
 				stability_factor = -0.3
